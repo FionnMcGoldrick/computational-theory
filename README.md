@@ -109,7 +109,21 @@ This section contains each source that I used both universally throughout the as
 
 ### Universal References
 
+- [NIST (Secure Hash Standard)](https://csrc.nist.gov/pubs/fips/180-2/final) - *Used for getting the necessary formulas to complete the problems.* 
+
+- [NumPy Docs](https://numpy.org/doc/) - *Used to understand NumPy functionalities, use cases, and also for NumPy syntax.*
+
+- [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) - *Helpful for planning out Docstring structure*
+
+- [Real Python](https://realpython.com/) - *Used for understanding new Python concepts I was not aware of.*
+
+- [SHA: Secure Hashing Algorithm - Computerphile](https://www.youtube.com/watch?v=DMtFhACPnTY) - *YouTube video used for understang SHA general knowledge.*
+
 ### Problem 1 References
+
+[Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/) - *To get a understand bitwise operations further.*
+
+[Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation) - *To obtain a deeper understanding of bitwise operations.*
 
 ### Problem 2 References
 
