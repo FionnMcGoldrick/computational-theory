@@ -123,7 +123,7 @@ This section contains each source that I used both universally throughout the as
 
 [Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/) - *To get a understand bitwise operations further.*
 
-[Bitwise operation](https://en.wikipedia.org/wiki/Bitwise_operation) - *To obtain a deeper understanding of bitwise operations.*
+[Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation) - *To obtain a deeper understanding of bitwise operations.*
 
 ### Problem 2 References
 
