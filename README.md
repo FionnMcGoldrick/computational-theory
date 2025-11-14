@@ -123,6 +123,12 @@ This section contains each source that I used both universally throughout the as
 
 - [W3Schools - Python](https://www.w3schools.com/python/) - *Used for understanding anything python. Syntax, built-in functions, data structures, ect...*
 
+- [ChatGPT](https://chatgpt.com/) - *Used for a personalised explanation of concepts that I could not find helpful sources on. Also used for assistance with grammar, spelling mistakes, and scientific structure in the markdown.*
+
+- [Claude](https://claude.ai/new) - *Used for help in debugging Python code if I could not find the issues myself or online.*
+
+- [StackOverflow](https://stackoverflow.com/questions) - *Often used to find correct or improved implementations of my code.* 
+
 ### Problem 1 References
 
 - [Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/) - *To get a understand bitwise operations further.*
