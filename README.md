@@ -109,6 +109,8 @@ This section contains each source that I used both universally throughout the as
 
 ### Universal References
 
+- [Computational Theory GitHub Repo](https://github.com/ianmcloughlin/computational-theory) - *Base resource for the notebook. Used for understanding the notebook and problem requirements. Also, for notes on understanding many concepts relevant to this notebook.*  
+
 - [NIST (Secure Hash Standard)](https://csrc.nist.gov/pubs/fips/180-2/final) - *Used for getting the necessary formulas to complete the problems.* 
 
 - [NumPy Docs](https://numpy.org/doc/) - *Used to understand NumPy functionalities, use cases, and also for NumPy syntax.*
@@ -119,15 +121,41 @@ This section contains each source that I used both universally throughout the as
 
 - [SHA: Secure Hashing Algorithm - Computerphile](https://www.youtube.com/watch?v=DMtFhACPnTY) - *YouTube video used for understang SHA general knowledge.*
 
+- [W3Schools - Python](https://www.w3schools.com/python/) - *Used for understanding anything python. Syntax, built-in functions, data structures, ect...*
+
 ### Problem 1 References
 
-[Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/) - *To get a understand bitwise operations further.*
+- [Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/) - *To get a understand bitwise operations further.*
 
-[Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation) - *To obtain a deeper understanding of bitwise operations.*
+- [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation) - *To obtain a deeper understanding of bitwise operations.*
 
 ### Problem 2 References
 
+- [List of prime numbers](https://en.wikipedia.org/wiki/List_of_prime_numbers) - *Used for reaffirming prime function output.*
+
+- [Cuberoot Root Calculator](https://www.calculatorsoup.com/calculators/algebra/cuberoots.php) - *Checking if function outputting correct primes.*
+
+- [Cuberoot Wikepedia](https://en.wikipedia.org/wiki/Cube_root) - *Information on cuberoots*
+
+- [How to represent fractional numbers in Binary](https://www.luisllamas.es/en/represent-fractional-numbers-in-binary/) - *Used for understanding how to represent fractional numbers in binary.*
+
+- [Hexadeximal Wiki](https://en.wikipedia.org/wiki/Hexadecimal) - *Information on hexadecimal representation* 
+
 ### Problem 3 References
+
+- [Real Python - Generators](https://realpython.com/introduction-to-python-generators/) - *Used to better understand how generators work and their applications.*
+
+- [Real Python - Byte Objects](https://realpython.com/python-bytes/) - *Understand byte object better.*
+
+- [MojoAuth - MD5 vs MD4](https://mojoauth.com/compare-hashing-algorithms/) - *Researching MD5 & MD4 cryptographic functions.* 
+
+- [Wikipedia - Guido van Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) - *Researching Python history for discussion section.*
+
+- [Python Enhancement Proposals](https://peps.python.org/pep-0225/) - *Used for understanding the PEP 225 proposals for the discussion section.*
+
+- [Wikipedia - Endianness](https://en.wikipedia.org/wiki/Endianness) - *For understanding endianness.*
+
+- [W3Schools - Python Built in Functions](https://www.w3schools.com/python/python_ref_functions.asp) - *For finding functions I will need for this problem and how they work.*
 
 ### Problem 4 References
 
