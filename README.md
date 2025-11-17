@@ -129,6 +129,8 @@ This section contains each source that I used both universally throughout the as
 
 - [StackOverflow](https://stackoverflow.com/questions) - *Often used to find correct or improved implementations of my code.* 
 
+- [Sha Algorithm - Visualisation](https://sha256algorithm.com/) - *Massive help for visualising SHA-256 concepts.*
+
 ### Problem 1 References
 
 - [Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/) - *To get a understand bitwise operations further.*
@@ -165,6 +167,16 @@ This section contains each source that I used both universally throughout the as
 
 ### Problem 4 References
 
+- [Hash function](https://en.wikipedia.org/wiki/Hash_function) - *Better understanding of hash functions.*
+
+- [SHA-256 | COMPLETE Step-By-Step Explanation - RedBlockBlue](https://www.youtube.com/watch?v=orIgy2MjqrA) - *Useful YouTube video. Watched onward from **4:27** for this problem.*
+
+- [CS255 - Stanford: Introduction to Cryptography](https://crypto.stanford.edu/~dabo/cs255/) - *Taught how iterative hashing worked and why internal state is updated block by block*
+
+- [SHA256 - Online Tools](https://emn178.github.io/online-tools/sha256.html) - *Used for visualisation of hashing and experimenting with input and hashed output. Also used to test my implementation functionality.*
+
+- [Simplil Learn: A Definitive Guide to Learn The SHA-256 (Secure Hash Algorithms)](https://www.simplilearn.com/tutorials/cyber-security-tutorial/sha-256-algorithm) - *Extremely good graphics for explaining hashing and SHA-256 concepts.*
+
 ### Problem 5 References
 
 ## 6. Assessment Requirements Checklist
@@ -172,7 +184,7 @@ This section contains each source that I used both universally throughout the as
 ## 7. Testing / Verification Notes
 
 ## 8. Author
-This repo was designed by *Fionn McGoldrick*.
+This repo was designed and written by *Fionn McGoldrick*.
 
 G00422349@atu.ie
 
