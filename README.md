@@ -171,6 +171,12 @@ This section contains each source that I used both universally throughout the as
 
 - [SHA-256 | COMPLETE Step-By-Step Explanation - RedBlockBlue](https://www.youtube.com/watch?v=orIgy2MjqrA) - *Useful YouTube video. Watched onward from **4:27** for this problem.*
 
+- [CS255 - Stanford: Introduction to Cryptography](https://crypto.stanford.edu/~dabo/cs255/) - *Taught how iterative hashing worked and why internal state is updated block by block*
+
+- [SHA256 - Online Tools](https://emn178.github.io/online-tools/sha256.html) - *Used for visualisation of hashing and experimenting with input and hashed output. Also used to test my implementation functionality.*
+
+- [Simplil Learn: A Definitive Guide to Learn The SHA-256 (Secure Hash Algorithms)](https://www.simplilearn.com/tutorials/cyber-security-tutorial/sha-256-algorithm) - *Extremely good graphics for explaining hashing and SHA-256 concepts.*
+
 ### Problem 5 References
 
 ## 6. Assessment Requirements Checklist
