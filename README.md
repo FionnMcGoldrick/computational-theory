@@ -88,19 +88,25 @@ This ensures the notebook uses the correct environment.
 
 Open ``problems.ipynb`` and click the run / play button on any given cell.
 
-**NOTE:** *Ensure the first cell containing the NumPy import is run before executing later cells.*
+**NOTE:** *Ensure the first cell containing the NumPy and hashlib imports is run before executing later cells.*
 
 ## 4. Dependencies
 
-This project requires only one external **Python** package: **NumPy**.
+This project requires only two external **Python** packages: **NumPy** & **hashlib**.
 
 ### Required Packages:
 - **NumPy** — used for 32-bit integer operations, bitwise functions, and numerical calculations required by the Secure Hash Standard.
 
-**Install using:**
+**Install NumPy using:**
 
 ```
 pip install numpy
+```
+
+*hashlib is a built-in standard library in Python*
+
+```python
+import hashlib
 ```
 
 ## 5. Resources & References
@@ -147,7 +153,7 @@ This section contains each source that I used both universally throughout the as
 
 - [How to represent fractional numbers in Binary](https://www.luisllamas.es/en/represent-fractional-numbers-in-binary/) - *Used for understanding how to represent fractional numbers in binary.*
 
-- [Hexadeximal Wiki](https://en.wikipedia.org/wiki/Hexadecimal) - *Information on hexadecimal representation* 
+- [Hexadeximal Wiki](https://en.wikipedia.org/wiki/Hexadecimal) - *Information on hexadecimal representation.* 
 
 ### Problem 3 References
 
@@ -171,7 +177,7 @@ This section contains each source that I used both universally throughout the as
 
 - [SHA-256 | COMPLETE Step-By-Step Explanation - RedBlockBlue](https://www.youtube.com/watch?v=orIgy2MjqrA) - *Useful YouTube video. Watched onward from **4:27** for this problem.*
 
-- [CS255 - Stanford: Introduction to Cryptography](https://crypto.stanford.edu/~dabo/cs255/) - *Taught how iterative hashing worked and why internal state is updated block by block*
+- [CS255 - Stanford: Introduction to Cryptography](https://crypto.stanford.edu/~dabo/cs255/) - *Taught how iterative hashing worked and why internal state is updated block by block.*
 
 - [SHA256 - Online Tools](https://emn178.github.io/online-tools/sha256.html) - *Used for visualisation of hashing and experimenting with input and hashed output. Also used to test my implementation functionality.*
 
@@ -181,17 +187,29 @@ This section contains each source that I used both universally throughout the as
 
 - [UTF-8 - Wikepedia](https://en.wikipedia.org/wiki/UTF-8) - *To consolidate my understanding of the UTF-8 format*
 
-- [UTF-8, Explained Simply - Nic Barker](https://www.youtube.com/watch?v=vpSkBV5vydg) - *More theory and background behind UTF-8 encoding*
+- [UTF-8, Explained Simply - Nic Barker](https://www.youtube.com/watch?v=vpSkBV5vydg) - *More theory and background behind UTF-8 encoding.*
 
-- [The Unicode Standard](https://www.unicode.org/standard/standard.html) - *Used for learning about the Unicode Standard deeper*
+- [The Unicode Standard](https://www.unicode.org/standard/standard.html) - *Used for learning about the Unicode Standard deeper.*
 
-- [ASCII Code](https://www.ascii-code.com/) - *To compare UTF-8 to ASCII encoding*
+- [ASCII Code](https://www.ascii-code.com/) - *To compare UTF-8 to ASCII encoding.*
 
-- [Nord Pass](https://nordpass.com/most-common-passwords-list/) - *For finding a list of the top 200 most common passwords*
+- [Nord Pass](https://nordpass.com/most-common-passwords-list/) - *For finding a list of the top 200 most common passwords.*
 
-- [Real Python - hashlib](https://realpython.com/ref/stdlib/hashlib/#:~:text=The%20Python%20hashlib%20module%20provides,%2C%20password%20storage%2C%20and%20more.) - *Researching libraries to help with this problem*
+- [Real Python - hashlib](https://realpython.com/ref/stdlib/hashlib/#:~:text=The%20Python%20hashlib%20module%20provides,%2C%20password%20storage%2C%20and%20more.) - *Researching libraries to help with this problem.*
+
+- [Python assert Keyword](https://www.w3schools.com/python/ref_keyword_assert.asp) - *Used for understanding assert keyword in Python before using it in test cases.*
+
+- [bcrypt - Wikipedia](https://en.wikipedia.org/wiki/Bcrypt) - *Reading up on bcrypt for discussion section.*
+
+- [PBKDF2 - Wikipedia](https://en.wikipedia.org/wiki/PBKDF2) - *Reading up on PBKDF2 for discussion section of this problem.*
+
+- [Argon2 - Wikipedia](https://en.wikipedia.org/wiki/Argon2) - *Read up on Argon2 definition for discussion section.*
+
+- [What is a Dictionary Attack? - Kaspersky](https://www.kaspersky.com/resource-center/definitions/what-is-a-dictionary-attack) - *Understanding how a dictionary attack works.*
 
 ## 6. Assessment Requirements Checklist
+
+
 
 ## 7. Testing / Verification Notes
 
