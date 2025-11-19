@@ -179,6 +179,18 @@ This section contains each source that I used both universally throughout the as
 
 ### Problem 5 References
 
+- [UTF-8 - Wikepedia](https://en.wikipedia.org/wiki/UTF-8) - *To consolidate my understanding of the UTF-8 format*
+
+- [UTF-8, Explained Simply - Nic Barker](https://www.youtube.com/watch?v=vpSkBV5vydg) - *More theory and background behind UTF-8 encoding*
+
+- [The Unicode Standard](https://www.unicode.org/standard/standard.html) - *Used for learning about the Unicode Standard deeper*
+
+- [ASCII Code](https://www.ascii-code.com/) - *To compare UTF-8 to ASCII encoding*
+
+- [Nord Pass](https://nordpass.com/most-common-passwords-list/) - *For finding a list of the top 200 most common passwords*
+
+- [Real Python - hashlib](https://realpython.com/ref/stdlib/hashlib/#:~:text=The%20Python%20hashlib%20module%20provides,%2C%20password%20storage%2C%20and%20more.) - *Researching libraries to help with this problem*
+
 ## 6. Assessment Requirements Checklist
 
 ## 7. Testing / Verification Notes
