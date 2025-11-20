@@ -209,6 +209,20 @@ This section contains each source that I used both universally throughout the as
 
 ## 6. Assessment Requirements Checklist
 
+This project has been implemented to meet the requirements of the Computational Theory assessment as described in the module repository.
+
+
+- [x] Implemented all required **SHA-256** components specified in the assignment, including the padding algorithm, message block parsing, message schedule expansion (`W[0..63]`), and the full **SHA-256** compression function (`hash(current, block)`) as described in **FIPS 180-4**.
+- [x] Completed all problem statements from the assessment brief, including the implementation of the helper functions (bitwise operations, rotations, choice/majority functions, σ and Σ functions) and the construction of the working variables for each compression round.
+- [x] Developed a working SHA-256 hashing pipeline capable of hashing **UTF-8** encoded strings.
+- [x] Successfully implemented the password-cracking task using the SHA-256 function, a dictionary of common passwords, and hash comparison.
+- [x] Added explanations, docstrings, and comments to document how each part of the implementation works and how it relates to the Secure Hash Standard.
+- [x] Included test cases validating correctness, determinism, avalanche behaviour, and correct 32-bit word handling.
+- [x] Provided a discussion of results, interpretation of the approach, and improvements to password hashing (e.g., salting, slow KDFs, stronger password policies).
+- [ ] Finish all sections to the ``README.md`` in a cohesive and professional way.
+- [ ] Ensure that the ``problems.ipynb`` is well structured and consistent while reading in an exciting and interesting way.
+- [ ] Explore multiple different approaches to implementations of the problems in the notebook. 
+
 
 
 ## 7. Testing / Verification Notes
