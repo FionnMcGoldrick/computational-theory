@@ -227,6 +227,10 @@ This project has been implemented to meet the requirements of the Computational 
 
 ## 7. Testing / Verification Notes
 
+All components of the project were tested using a combination of unit-level checks, manual verification, and comparisons with known **SHA-256 outputs**. Each problem was validated in its own appropriate way to ensure correctness, consistency, and alignment with the **FIPS 180-4 specification**.
+
+The full hashing pipeline was cross-checked against official test vectors and external **SHA-256** calculators (which are referenced), and repeated runs confirmed deterministic behaviour. The password-cracking task was also tested with controlled inputs to ensure the logic worked as intended. Overall, the project’s results were verified to be accurate and reproducible.
+
 ## 8. Author
 This repo was designed and written by *Fionn McGoldrick*.
 
