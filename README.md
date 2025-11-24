@@ -209,9 +209,27 @@ This section contains each source that I used both universally throughout the as
 
 ## 6. Assessment Requirements Checklist
 
+This project has been implemented to meet the requirements of the Computational Theory assessment as described in the module repository.
+
+
+- [x] Implemented all required **SHA-256** components specified in the assignment, including the padding algorithm, message block parsing, message schedule expansion (`W[0..63]`), and the full **SHA-256** compression function (`hash(current, block)`) as described in **FIPS 180-4**.
+- [x] Completed all problem statements from the assessment brief, including the implementation of the helper functions (bitwise operations, rotations, choice/majority functions, σ and Σ functions) and the construction of the working variables for each compression round.
+- [x] Developed a working SHA-256 hashing pipeline capable of hashing **UTF-8** encoded strings.
+- [x] Successfully implemented the password-cracking task using the SHA-256 function, a dictionary of common passwords, and hash comparison.
+- [x] Added explanations, docstrings, and comments to document how each part of the implementation works and how it relates to the Secure Hash Standard.
+- [x] Included test cases validating correctness, determinism, avalanche behaviour, and correct 32-bit word handling.
+- [x] Provided a discussion of results, interpretation of the approach, and improvements to password hashing (e.g., salting, slow KDFs, stronger password policies).
+- [ ] Finish all sections to the ``README.md`` in a cohesive and professional way.
+- [ ] Ensure that the ``problems.ipynb`` is well structured and consistent while reading in an exciting and interesting way.
+- [ ] Explore multiple different approaches to implementations of the problems in the notebook. 
+
 
 
 ## 7. Testing / Verification Notes
+
+All components of the project were tested using a combination of unit-level checks, manual verification, and comparisons with known **SHA-256 outputs**. Each problem was validated in its own appropriate way to ensure correctness, consistency, and alignment with the **FIPS 180-4 specification**.
+
+The full hashing pipeline was cross-checked against official test vectors and external **SHA-256** calculators (which are referenced), and repeated runs confirmed deterministic behaviour. The password-cracking task was also tested with controlled inputs to ensure the logic worked as intended. Overall, the project’s results were verified to be accurate and reproducible.
 
 ## 8. Author
 This repo was designed and written by *Fionn McGoldrick*.
