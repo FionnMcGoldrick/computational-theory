@@ -9,7 +9,7 @@ The assessment requires all problems to be completed in one **Jupyter notebook**
 
 The structure and requirements of this project follow the official assessment instructions and guidance provided by the module’s [GitHub repository](https://github.com/ianmcloughlin/computational-theory/tree/main).
 
-### Purpose of Project
+### 1. Purpose of Project
 
 The primary goal of this project is to demonstrate a strong practical **understanding of the computational and mathematical foundations** behind the **SHA-256 hashing algorithm**, including:
 
@@ -29,7 +29,7 @@ The primary goal of this project is to demonstrate a strong practical **understa
 
 The project goes beyond simply solving each question: it **documents the theory behind each concept**, applies testing, references appropriate sources, and structures the work so it can be rerun cleanly on any machine.
 
-## 2. Respository Structure
+### 2. Respository Structure
 The project structure is quite simple and only contains the ``README.md`` and the ``problems.ipynb``. My repository also contains a .``vscode`` file which just contains JSON settings configuration file but it is not particularly relevant to this assignment.
 ```
 computational-theory/
@@ -39,11 +39,11 @@ computational-theory/
 ```
 
 
-## 3. How to Run the Notebooks
+### 3. How to Run the Notebooks
 
 To run `problems.ipynb`, clone the repository and set up a Python environment with the required dependencies.
 
-### 1. Clone the Repository
+### Clone the Repository
 **With HTTPS:** 
 ```
 git clone https://github.com/fionnmcgoldrick123/computational-theory.git
@@ -56,7 +56,7 @@ git clone git@github.com:fionnmcgoldrick123/computational-theory.git
 cd computational-theory
 ```
 
-### 2. Create and Activate a Virtual Environment
+### Create and Activate a Virtual Environment
 It is recommended to use a virtual environment to keep dependencies isolated.
 ```
 python3 -m venv venv
@@ -64,18 +64,18 @@ source venv/bin/activate        # macOS / Linux
 venv\Scripts\activate           # Windows
 ```
 
-### 3. Install Dependencies
+### Install Dependencies
 Install NumPy dependency.
 ```
 pip install numpy
 ```
 
-### 4. Open the Project in Visual Studio Code
+### Open the Project in Visual Studio Code
 ```
 code . 
 ```
 
-### 5. Select your Python Interpreter
+### Select your Python Interpreter
 **In Visual Studio Code:**
 
 1. Press **Ctrl+Shift+P**
@@ -84,13 +84,13 @@ code .
 
 This ensures the notebook uses the correct environment.
 
-### 6. Run the Notebook
+### Run the Notebook
 
 Open ``problems.ipynb`` and click the run / play button on any given cell.
 
 **NOTE:** *Ensure the first cell containing the NumPy and hashlib imports is run before executing later cells.*
 
-## 4. Dependencies
+### 4. Dependencies
 
 This project requires only two external **Python** packages: **NumPy** & **hashlib**.
 
@@ -109,7 +109,42 @@ pip install numpy
 import hashlib
 ```
 
-## 5. Resources & References
+### 5. Core Theoretical Concepts Explained
+
+This section explains the key **low-level computational concepts** used throughout SHA-256 and your notebook. These ideas appear repeatedly throughout the notebook and are essential for understanding how each component of the **Secure Hash Standard (FIPS 180-4)** works internally. 
+
+### 32-Bit Words and Modulo 2<sup>32</sup> Arithmetic
+
+**SHA-256** operates exclusively on **32-bit unsigned integers (also called words).**
+A 32-bit word can represent values in the range:
+
+``0 ≤ x < 2``<sup>``32``</sup>
+
+All additions in **SHA-256** use **modulo 2<sup>32</sup>** arithmetic, meaning that if a result exceeds the maximum 32-bit value, it wraps around, discarding overflow bits:
+
+*Example*
+```python
+0xFFFFFFFF + 0x02 = 0x00000001   (overflow ignored)
+```
+
+This wrap-around behaviour is fundamental to the **hash design**.
+In the notebook, **NumPy’s** ``np.uint32()`` is used to enforce **32-bit boundaries** consistently, ensuring all intermediate values remain valid **SHA-256 words**.
+
+
+### Bitwise Operations Notations
+| Symbol | Name | Operation Description | Example `(x = 0b1100, y = 0b1010)`| 
+|:-:|:-:|:-:|:-----------------:|
+| & | Bitwise AND | Compares each bit of two numbers. Bit is *1* only if both bits are *1*. | `x & y = 0b1000` | 
+| ` | Bitwise OR |Compares each bit of two numbers. Bit is *1* if either bit is *1*. | ``x ` y = 0b1110`` | 
+| ^ | Bitwise XOR | Bit is 1 if the two bits are *different*. | `x ^ y = 0b0110` | 
+| ~ | Bitwise NOT | Flips every bit *(1 > 0, 0 > 1)*. Works as *-(x+1)* in Python due to two’s complement. | `~x = -0b1101` |
+| << | Left Shift | Shifts bits to the left by *n* places. Fills in zeros on the right. | `x << 2 = 0b110000` | 
+| >> | Right Shift | Shift bits to the right by *n* places. Fills in the zeros on the left. | `x >> 2 = 0b0011` |  
+
+
+
+
+### 6. Resources & References
 
 This section contains each source that I used both universally throughout the assignment, and the ones I used for each individual problem.
 
@@ -207,7 +242,7 @@ This section contains each source that I used both universally throughout the as
 
 - [What is a Dictionary Attack? - Kaspersky](https://www.kaspersky.com/resource-center/definitions/what-is-a-dictionary-attack) - *Understanding how a dictionary attack works.*
 
-## 6. Assessment Requirements Checklist
+## 7. Assessment Requirements Checklist
 
 This project has been implemented to meet the requirements of the Computational Theory assessment as described in the module repository.
 
@@ -225,13 +260,13 @@ This project has been implemented to meet the requirements of the Computational 
 
 
 
-## 7. Testing / Verification Notes
+## 8. Testing / Verification Notes
 
 All components of the project were tested using a combination of unit-level checks, manual verification, and comparisons with known **SHA-256 outputs**. Each problem was validated in its own appropriate way to ensure correctness, consistency, and alignment with the **FIPS 180-4 specification**.
 
 The full hashing pipeline was cross-checked against official test vectors and external **SHA-256** calculators (which are referenced), and repeated runs confirmed deterministic behaviour. The password-cracking task was also tested with controlled inputs to ensure the logic worked as intended. Overall, the project’s results were verified to be accurate and reproducible.
 
-## 8. Author
+## 9. Author
 This repo was designed and written by *Fionn McGoldrick*.
 
 G00422349@atu.ie
